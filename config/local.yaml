@@ -1,0 +1,4 @@
+env: "local" #local, dev, prod
+storage_path: "./storage/storage.db"
+http_server:
+  time_out: 4s
