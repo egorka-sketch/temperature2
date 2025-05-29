@@ -7,7 +7,7 @@ import (
 )
 
 func Temperature(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "hola marica")
+	fmt.Fprintln(w, "hola")
 }
 func main() {
 	http.HandleFunc("/", Temperature)
